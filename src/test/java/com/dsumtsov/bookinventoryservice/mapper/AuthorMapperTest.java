@@ -20,7 +20,7 @@ import static org.junit.Assert.*;
 public class AuthorMapperTest {
 
     @Test
-    public void entityToDtoTest() {
+    public void entityToDto() {
         Book book1 = new Book();
         book1.setId(1L);
         book1.setTitle("Book 1");
@@ -65,7 +65,7 @@ public class AuthorMapperTest {
     }
 
     @Test
-    public void dtoToEntityTest() {
+    public void dtoToEntity() {
         AuthorDTO authorDTO = new AuthorDTO();
         authorDTO.setId(1L);
         authorDTO.setName("Name Surname Patronymic");

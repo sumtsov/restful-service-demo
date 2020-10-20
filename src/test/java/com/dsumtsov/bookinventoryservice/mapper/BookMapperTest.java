@@ -18,7 +18,7 @@ import static org.junit.Assert.assertNull;
 public class BookMapperTest {
 
     @Test
-    public void entityToDtoTest() {
+    public void entityToDto() {
         Book book = new Book();
         book.setId(1L);
         book.setTitle("Book 1");
@@ -40,7 +40,7 @@ public class BookMapperTest {
     }
 
     @Test
-    public void dtoToEntityTest() {
+    public void dtoToEntity() {
         BookDTO bookDTO = new BookDTO();
         bookDTO.setId(1L);
         bookDTO.setTitle("Book 1");
