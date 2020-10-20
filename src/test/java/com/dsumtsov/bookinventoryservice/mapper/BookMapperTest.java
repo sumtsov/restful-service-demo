@@ -4,21 +4,16 @@ import com.dsumtsov.bookinventoryservice.dto.BookDTO;
 import com.dsumtsov.bookinventoryservice.domain.Author;
 import com.dsumtsov.bookinventoryservice.domain.Book;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-@SpringBootTest
-@RunWith(SpringRunner.class)
 public class BookMapperTest {
 
     @Test
-    public void entityToDtoTest() {
+    public void entityToDto() {
         Book book = new Book();
         book.setId(1L);
         book.setTitle("Book 1");
@@ -40,7 +35,7 @@ public class BookMapperTest {
     }
 
     @Test
-    public void dtoToEntityTest() {
+    public void dtoToEntity() {
         BookDTO bookDTO = new BookDTO();
         bookDTO.setId(1L);
         bookDTO.setTitle("Book 1");

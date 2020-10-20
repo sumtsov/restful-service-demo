@@ -6,21 +6,16 @@ import com.dsumtsov.bookinventoryservice.domain.Author;
 import com.dsumtsov.bookinventoryservice.domain.Book;
 import com.google.common.collect.Sets;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Date;
 
 import static com.dsumtsov.bookinventoryservice.util.DateUtils.formatBirthday;
 import static org.junit.Assert.*;
 
-@SpringBootTest
-@RunWith(SpringRunner.class)
 public class AuthorMapperTest {
 
     @Test
-    public void entityToDtoTest() {
+    public void entityToDto() {
         Book book1 = new Book();
         book1.setId(1L);
         book1.setTitle("Book 1");
@@ -65,7 +60,7 @@ public class AuthorMapperTest {
     }
 
     @Test
-    public void dtoToEntityTest() {
+    public void dtoToEntity() {
         AuthorDTO authorDTO = new AuthorDTO();
         authorDTO.setId(1L);
         authorDTO.setName("Name Surname Patronymic");
