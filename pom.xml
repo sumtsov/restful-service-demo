@@ -13,6 +13,7 @@
     <groupId>com.dsumtsov</groupId>
     <artifactId>book-inventory-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>book-inventory-service</name>
 
     <properties>
         <java.version>1.8</java.version>
