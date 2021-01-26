@@ -1,4 +1,4 @@
-# Book Inventory Service
+# Book Library Service
 
 Book Library Service is a RESTful web service that allows user to manage Book and Author entities
 
