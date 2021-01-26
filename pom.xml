@@ -11,9 +11,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dsumtsov</groupId>
-    <artifactId>book-inventory-service</artifactId>
+    <artifactId>book-library-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>book-inventory-service</name>
+    <name>book-library-service</name>
 
     <properties>
         <java.version>1.8</java.version>
