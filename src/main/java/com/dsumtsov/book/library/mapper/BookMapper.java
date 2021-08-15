@@ -1,8 +1,8 @@
 package com.dsumtsov.book.library.mapper;
 
-import com.dsumtsov.book.library.domain.Author;
+import com.dsumtsov.book.library.model.Author;
 import com.dsumtsov.book.library.dto.BookDTO;
-import com.dsumtsov.book.library.domain.Book;
+import com.dsumtsov.book.library.model.Book;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;

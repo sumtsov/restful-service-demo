@@ -1,9 +1,9 @@
 package com.dsumtsov.book.library.mapper;
 
-import com.dsumtsov.book.library.domain.Author;
+import com.dsumtsov.book.library.model.Author;
 import com.dsumtsov.book.library.dto.AuthorDTO;
 import com.dsumtsov.book.library.dto.BookDTO;
-import com.dsumtsov.book.library.domain.Book;
+import com.dsumtsov.book.library.model.Book;
 import com.google.common.collect.Sets;
 import org.junit.Test;
 

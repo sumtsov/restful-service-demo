@@ -1,6 +1,6 @@
 package com.dsumtsov.book.library.mapper;
 
-import com.dsumtsov.book.library.domain.Author;
+import com.dsumtsov.book.library.model.Author;
 import com.dsumtsov.book.library.dto.AuthorDTO;
 import com.dsumtsov.book.library.dto.DobDTO;
 import com.dsumtsov.book.library.dto.NameDTO;

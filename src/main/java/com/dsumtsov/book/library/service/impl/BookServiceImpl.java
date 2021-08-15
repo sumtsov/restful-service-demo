@@ -1,14 +1,14 @@
 package com.dsumtsov.book.library.service.impl;
 
 import com.dsumtsov.book.library.constants.ErrorConstants;
-import com.dsumtsov.book.library.domain.Author;
+import com.dsumtsov.book.library.model.Author;
 import com.dsumtsov.book.library.exception.ResourceExistsException;
 import com.dsumtsov.book.library.exception.ResourceNotFoundException;
 import com.dsumtsov.book.library.repository.AuthorRepository;
 import com.dsumtsov.book.library.repository.BookRepository;
 import com.dsumtsov.book.library.mapper.BookMapper;
 import com.dsumtsov.book.library.dto.BookDTO;
-import com.dsumtsov.book.library.domain.Book;
+import com.dsumtsov.book.library.model.Book;
 import com.dsumtsov.book.library.service.BookService;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;

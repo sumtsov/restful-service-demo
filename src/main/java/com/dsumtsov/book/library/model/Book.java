@@ -1,4 +1,4 @@
-package com.dsumtsov.book.library.domain;
+package com.dsumtsov.book.library.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
