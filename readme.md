@@ -9,7 +9,7 @@ Book Library Service is a RESTful web service that allows user to manage Book an
 - Retrieving full book info by book title
 - Logging total amount of books in system every ***n*** minutes
 - Integration with [external API](https://randomuser.me/documentation) that allows retrieving random author
-- Tests with test containers
+- Integration tests with test containers
 
 ## Installation
 
