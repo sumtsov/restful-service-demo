@@ -1,5 +1,6 @@
 package com.dsumtsov.book.library.config;
 
+import com.dsumtsov.book.library.config.properties.PostgresProperties;
 import lombok.RequiredArgsConstructor;
 import org.flywaydb.core.Flyway;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -16,7 +17,7 @@ import java.time.temporal.ChronoUnit;
 
 @Configuration
 @RequiredArgsConstructor
-public class DataSourceConfig {
+public class DataSourceConfiguration {
     private final PostgresProperties postgresProperties;
 
     @Bean(name = "dataSource")

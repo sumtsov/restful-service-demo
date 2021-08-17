@@ -1,4 +1,4 @@
-package com.dsumtsov.book.library.config;
+package com.dsumtsov.book.library.config.properties;
 
 import lombok.Getter;
 import lombok.Setter;

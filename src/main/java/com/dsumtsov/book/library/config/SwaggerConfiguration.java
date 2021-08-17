@@ -15,7 +15,7 @@ import java.util.Set;
 
 @Configuration
 @EnableSwagger2
-public class SwaggerConfig {
+public class SwaggerConfiguration {
     private static final Contact DEFAULT_CONTACT = new Contact(
             "Dmitry Sumtsov", "https://github.com/sumtsov", "dmsmtsv@gmail.com");
 
