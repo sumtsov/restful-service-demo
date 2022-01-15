@@ -20,7 +20,7 @@ public class SwaggerConfiguration {
             "Dmitry Sumtsov", "https://github.com/sumtsov", "dmsmtsv@gmail.com");
 
     private static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
-            "Book Inventory Service Rest Api", "This api lets you manage book inventory",
+            "Book Inventory Service REST API", "API for managing book inventory",
             "1.0", "urn:tos", DEFAULT_CONTACT,
             "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0", new ArrayList());
 
