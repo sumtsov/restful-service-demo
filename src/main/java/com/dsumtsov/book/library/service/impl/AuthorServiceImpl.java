@@ -1,6 +1,6 @@
 package com.dsumtsov.book.library.service.impl;
 
-import com.dsumtsov.book.library.model.Author;
+import com.dsumtsov.book.library.entity.Author;
 import com.dsumtsov.book.library.exception.ResourceExistsException;
 import com.dsumtsov.book.library.exception.ResourceNotFoundException;
 import com.dsumtsov.book.library.feign.AuthorGeneratorClient;

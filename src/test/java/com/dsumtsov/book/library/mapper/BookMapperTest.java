@@ -1,8 +1,8 @@
 package com.dsumtsov.book.library.mapper;
 
-import com.dsumtsov.book.library.model.Author;
+import com.dsumtsov.book.library.entity.Author;
 import com.dsumtsov.book.library.dto.BookDTO;
-import com.dsumtsov.book.library.model.Book;
+import com.dsumtsov.book.library.entity.Book;
 import org.junit.Test;
 
 import java.util.*;

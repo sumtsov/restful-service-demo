@@ -1,4 +1,4 @@
-package com.dsumtsov.book.library.model;
+package com.dsumtsov.book.library.entity;
 
 import com.dsumtsov.book.library.exception.ResourceExistsException;
 import lombok.Data;
