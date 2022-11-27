@@ -1,5 +1,5 @@
-# Book Library Service
-Book Library Service is a RESTful web service that allows user to manage Book and Author entities
+# RESTful Service Demo
+Sample RESTful web service that allows users to manage Book and Author entities
 
 ## Features
 - CRUD for Author and Book entities
@@ -11,10 +11,10 @@ Book Library Service is a RESTful web service that allows user to manage Book an
 
 ## How to run
 1. Build the project: ```mvn clean package```
-1. Run the .jar: ```java -jar book-library-service-${version}.jar```
+1. Run the .jar: ```java -jar restful-service-demo-${version}.jar```
 
 ## Usage
-Explore [postman collections](https://github.com/sumtsov/book-library-service/tree/master/src/main/resources/postman-collections)
+Explore [postman collections](https://github.com/sumtsov/restful-service-demo/tree/master/src/main/resources/postman-collections)
 
 ## API Reference
 - swagger-ui: ```http://localhost:8080/swagger-ui/index.html```

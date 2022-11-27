@@ -11,9 +11,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dsumtsov</groupId>
-    <artifactId>book-library-service</artifactId>
+    <artifactId>restful-service-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>book-library-service</name>
+    <name>restful-service-demo</name>
 
     <properties>
         <java.version>1.8</java.version>
